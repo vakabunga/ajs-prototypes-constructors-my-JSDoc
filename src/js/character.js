@@ -1,13 +1,11 @@
 /**
- * <Общее описание>
+ * Функция-конструктор создания Персонажа
  *
- * @param {string} name - name of Character: min 2 symbols, max 10.
- * @param {string} type - type of unit: Bowman, Swordsman, Magician, Daemon, Undead, Zombie
- *
- * @throws {InvalidDataInParams} - income params must meet the following conditions
+ * @param {String} name имя Персонажа: мин 2 символа, максимум 10.
+ * @param {String} type тип юнита на выбор: Bowman, Swordsman, Magician, Daemon, Undead, Zombie
+ * @throws {} показ ошибки о неправильных значениях вводимых параметров функции
  */
 
-// eslint-disable-next-line no-unused-vars
 function Character(name, type) {
   this.name = name;
   this.type = type;
